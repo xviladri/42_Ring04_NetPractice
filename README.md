@@ -20,15 +20,14 @@ Throughout this project, I developed a deep understanding of network logic rathe
 
 ---
 
-## 🚀 Instructions
+## 🚀 Execution instructions
 
-To run the training interface and test the network configurations:
+To run the training interface and test the network configurations on a Linux system, navigate to the project directory and run the provided script:
 
-* **Note:** If the script fails, you can run `python3 -m http.server 49242` and navigate to `http://localhost:49242` in your browser.
-* On the web interface, enter your 42 intranet login (`xviladri`) so the Moulinette can validate your specific configuration.
-* Solve the levels by modifying the unshaded fields until the network functions properly.
-* **Exporting Configurations:** Before moving to the next level, you must export your working configuration by clicking the **[Get my config]** button.
-
+```bash
+cd net_practice
+./run.sh
+```
 ---
 
 ## 📦 Submission Requirements
@@ -36,6 +35,22 @@ To run the training interface and test the network configurations:
 * For the final evaluation, 10 exported configuration files (one per level) must be placed directly at the root of the Git repository.
 * During the defense, I will have to successfully solve three random levels without the use of external tools. Only a simple calculator like `bc` is allowed.
   
+---
+
+## 📂 Project Structure
+
+```text
+├── level1.json     # Simple direct connection between two hosts
+├── level2.json     # Subnet mask matching between hosts
+├── level3.json     # Switch connecting multiple hosts
+├── level4.json     # Router connecting two networks
+├── level5.json     # Routes and default gateways
+├── level6.json     # Internet routing through a gateway
+├── level7.json     # Multiple subnets with two routers (/26 subnetting)
+├── level8.json     # Complex routing with Internet access and fixed subnets
+├── level9.json     # Four networks, two routers, Internet hacking concepts
+└── level10.json    # Final challenge — VLSM, route summarization, full topology
+```
 ---
 
 ## 📚 Resources
