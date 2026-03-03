@@ -2,6 +2,7 @@
 
 *This project has been created as part of the 42 curriculum by xviladri.*
 
+
 ## 📝 Description
 
 NetPractice is a general practical exercise designed to introduce the basics of computer networking. The main goal is to understand how to configure IP addresses, connect devices through a router, and understand the role of a gateway within a network.
@@ -18,7 +19,6 @@ Throughout this project, I developed a deep understanding of network logic rathe
 * **Route Aggregation (Supernetting):** Grouping smaller subnets (like `/28`) into a single larger routing rule (like `/26`) to simplify routing tables when communicating with the outside Internet.
 * **Default Routes:** Understanding that `0.0.0.0/0` (or `default`) acts as the "exit door" for any packet destined for an unknown IP address.
 
----
 
 ## 🚀 Execution instructions
 
@@ -28,16 +28,14 @@ To run the training interface and test the network configurations on a Linux sys
 cd net_practice
 ./run.sh
 ```
----
+
 
 ## 📦 Submission Requirements
 
 * For the final evaluation, 10 exported configuration files (one per level) must be placed directly at the root of the Git repository.
 * During the defense, I will have to successfully solve three random levels without the use of external tools. Only a simple calculator like `bc` is allowed.
-  
----
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
 ├── level1.json     # Simple direct connection between two hosts
@@ -51,7 +49,7 @@ cd net_practice
 ├── level9.json     # Four networks, two routers, Internet hacking concepts
 └── level10.json    # Final challenge — VLSM, route summarization, full topology
 ```
----
+
 
 ## 📚 Resources
 
